@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  #FAKE AGENT API
+  faker_a:
+    image: dotronglong/faker:stable
+    container_name: faker-agent-a
+    volumes:
+      - ./docker/faker:/app/mocks
+    ports:
+      - "8080:3030"
+
+  faker_b:
+    image: dotronglong/faker:stable
+    container_name: faker-agent-b
+    volumes:
+      - ./docker/faker:/app/mocks
+    ports:
+      - "8081:3030"
+
+  faker_c:
+    image: dotronglong/faker:stable
+    container_name: faker-agent-c
+    volumes:
+      - ./docker/faker:/app/mocks
+    ports:
+      - "8082:3030"

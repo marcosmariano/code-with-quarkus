@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method" : "GET",
+    "path": "/order/client"
+  },
+  "response": {
+    "statusCode": 200,
+    "headers": {
+      "content-type": "application/json; charset=utf-8",
+      "trace-id": "some-trace-id"
+    },
+    "body": {
+      "id": "1",
+      "name": "David Hislop",
+      "documentNumber": "7777777777",
+      "email": "david@david.com",
+      "phone": "1111-1111"
+    }
+  }
+}
