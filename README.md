@@ -1,7 +1,7 @@
+# Quarkus application Router
+This project redirect a request to another service when requested
+
 # code-with-quarkus Project
-
-Redirecting routes with RouterFilter
-
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
