@@ -42,7 +42,7 @@ You can create a native executable using:
 
 Or, if you don't have GraalVM installed, you can run the native executable build in a container using: 
 ```shell script
-./mvnw package -Pnative -Dquarkus.native.container-build=true
+./mvnw package -Pnative -Dquarkus.native.container-build=true -Dquarkus.container-image.build=true -DskipTests
 ```
 
 You can then execute your native executable with: `./target/code-with-quarkus-1.0.0-SNAPSHOT-runner`

@@ -2,12 +2,12 @@
   "plugins": [
     {
       "name": "delay",
-      "args": {"duration": 500}
+      "args": { "duration": 500 }
     }
   ],
   "request": {
     "method" : "POST",
-    "path": "/order/client"
+    "path": "/order/customer"
   },
   "response": {
     "statusCode": 201,
